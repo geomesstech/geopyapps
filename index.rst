@@ -16,3 +16,9 @@ Diese Dokumentation ist vorrangig für Studenten der Fachbereiche Vermessungswes
     :numbered:
 
     docs/programmieren
+
+.. toctree::
+    :maxdept: 1
+    :numbered:
+
+    docs/umgebung

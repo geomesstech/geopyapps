@@ -22,6 +22,3 @@ Die interpretierbaren Sprachen haben gegenüber Programmen in kompilierten Progr
 
 Warum Python?
 -------------
-
-Python ist eine Programiersprache
-Die Programmiersprache ist sehr breit anwendbar, u.a. für die Web-Entwicklung (serverseitig),
