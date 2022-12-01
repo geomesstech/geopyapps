@@ -17,5 +17,7 @@ Diese Dokumentation ist vorrangig für Studenten der Fachbereiche Vermessungswes
 
     docs/programmieren
     docs/umgebung
+    docs/grundlagen
     docs/datentypen
+    notebooks/variablen
     

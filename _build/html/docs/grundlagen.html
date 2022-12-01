@@ -19,10 +19,12 @@
         <script src="../_static/doctools.js"></script>
         <script src="../_static/sphinx_highlight.js"></script>
         <script src="../_static/translations.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
     <link rel="search" title="Suche" href="../search.html" />
-    <link rel="prev" title="2. Einrichtung der Umgebung" href="umgebung.html" /> 
+    <link rel="next" title="4. Variablen und Datentypen" href="datentypen.html" />
+    <link rel="prev" title="2. Entwicklungsumgebung (IDE)" href="umgebung.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -45,8 +47,15 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="programmieren.html">1. Warum programmieren lernen?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="umgebung.html">2. Einrichtung der Umgebung</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">3. Grundlagen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="umgebung.html">2. Entwicklungsumgebung (IDE)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">3. Grundlagen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#syntax">3.1. Syntax</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module">3.2. Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#kommentare">3.3. Kommentare</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="datentypen.html">4. Variablen und Datentypen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notebooks/variablen.html">5. Variablen und Datentypen</a></li>
 </ul>
 
         </div>
@@ -73,21 +82,55 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="grundlagen">
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<section id="grundlagen">
 <h1><span class="section-number">3. </span>Grundlagen<a class="headerlink" href="#grundlagen" title="Permalink to this heading"></a></h1>
+<section id="syntax">
+<h2><span class="section-number">3.1. </span>Syntax<a class="headerlink" href="#syntax" title="Permalink to this heading"></a></h2>
+</section>
+<section id="module">
+<h2><span class="section-number">3.2. </span>Module<a class="headerlink" href="#module" title="Permalink to this heading"></a></h2>
+</section>
+<section id="kommentare">
+<h2><span class="section-number">3.3. </span>Kommentare<a class="headerlink" href="#kommentare" title="Permalink to this heading"></a></h2>
+</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="umgebung.html" class="btn btn-neutral float-left" title="2. Einrichtung der Umgebung" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="umgebung.html" class="btn btn-neutral float-left" title="2. Entwicklungsumgebung (IDE)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="datentypen.html" class="btn btn-neutral float-right" title="4. Variablen und Datentypen" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2022, Lukasz Rojek.</p>
+    <p>&#169; Copyright 2022, W. Stemphuber, L. Rojek.</p>
   </div>
 
   Erstellt mit <a href="https://www.sphinx-doc.org/">Sphinx</a> mit einem
