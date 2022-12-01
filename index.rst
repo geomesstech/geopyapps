@@ -12,13 +12,10 @@ Diese Dokumentation ist vorrangig für Studenten der Fachbereiche Vermessungswes
     Das Lernskript befindet sich noch in der Entwicklungsphase und wird regelmäßig ergänzt.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :numbered:
 
     docs/programmieren
-
-.. toctree::
-    :maxdept: 1
-    :numbered:
-
     docs/umgebung
+    docs/datentypen
+    

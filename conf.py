@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Anwendungsentwicklung mit Python'
-copyright = '2022, Lukasz Rojek'
-author = 'Lukasz Rojek'
+copyright = '2022, W. Stemphuber, L. Rojek'
+author = 'W. Stempfhuber, L. Rojek'
 release = '01.10.2022'
 version = 'Education Edition'
 
