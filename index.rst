@@ -19,5 +19,4 @@ Diese Dokumentation ist vorrangig für Studenten der Fachbereiche Vermessungswes
     docs/umgebung
     docs/grundlagen
     docs/datentypen
-    notebooks/variablen
     
